@@ -32,7 +32,7 @@ jobs:
           file: build/alpine/Dockerfile
           push: true
           tags: |
-            1.23.2-alpine
-            1.23-alpine
-            1-alpine
-            mainline-alpine
+            enix223/awesome-nginx:1.23.2-alpine
+            enix223/awesome-nginx:1.23-alpine
+            enix223/awesome-nginx:1-alpine
+            enix223/awesome-nginx:mainline-alpine
