@@ -28,11 +28,11 @@ jobs:
           context: .
           platforms: linux/386, linux/amd64, linux/arm/v6, linux/arm/v7, linux/arm64/v8, linux/ppc64le, linux/s390x
           build-args: |
-            VERSION=1.23.2-alpine
+            VERSION=1.23.3-alpine
           file: build/alpine/Dockerfile
           push: true
           tags: |
-            enix223/awesome-nginx:1.23.2-alpine
+            enix223/awesome-nginx:1.23.3-alpine
             enix223/awesome-nginx:1.23-alpine
             enix223/awesome-nginx:1-alpine
             enix223/awesome-nginx:mainline-alpine
